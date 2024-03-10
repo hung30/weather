@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  color: white;
+  background: linear-gradient(145deg, #ffa6ae, #f8b1d5);
+  width: 300px;
+  margin: 50px auto;
+  border-radius: 5px;
+  font-size: 14px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.search-bar {
+  width: 100%;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-bar input {
+  border: 0;
+  outline: 0;
+  background-color: #ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  height: 15px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 6px;
+  font-size: 14px;
+}
+
+.search-bar button {
+  border: 0;
+  outline: 0;
+  background-color: #ebfffc;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.infor-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  padding: 100px 50px;
+}
+
+.city-name {
+  font-size: 30px;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.weather-status {
+  font-size: 13px;
+}
+
+.weather-icon {
+  width: 70px;
+  height: 70px;
+}
+
+.temperature {
+  font-size: 80px;
+  font-weight: lighter;
+  line-height: 1;
+  position: relative;
+}
+
+.temperature::after {
+  content: "o";
+  position: absolute;
+  font-size: 30px;
+}
+
+.secondly-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 20px 20px 20px;
+}
+
+.col {
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.col img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.humidity,
+.wind {
+  font-size: 20px;
+  margin-top: -6px;
+}
+
+.text {
+  font-size: 10px;
+}
